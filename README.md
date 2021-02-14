@@ -19,4 +19,9 @@ Taskların Developerlara paylaştırılması
 
 `php artisan task:distribution`
 
+#Oluşturulan dataların viewda gösterilmesi
+
+`php artisan key:generate`
+
+`php artisan serve`
 
