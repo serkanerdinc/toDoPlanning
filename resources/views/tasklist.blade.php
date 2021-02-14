@@ -42,7 +42,7 @@
                     @foreach ($users as $user)
                         <td>
                             @foreach ($userList[$user->id] as $task)
-                                {{$task->task->name}} ({{$task->estimated_duration}} saat)<br>
+                                {{$task->task->name}} <b>[Level {{$task->task->level}}]</b> ({{$task->estimated_duration}} saat)<br>
                             @endforeach
                         </td>
                     @endforeach
