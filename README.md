@@ -1,7 +1,9 @@
 #Kurulum
+
 `composer install`
 
 #Tabloların ve Dataların Oluşturulması
+
 `php artisan migrate`
 
 `php artisan db:seed --class=ProviderSeeder`
